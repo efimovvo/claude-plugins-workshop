@@ -1,0 +1,17 @@
+{
+  "name": "workshop-skills",
+  "owner": { "name": "efimovvo" },
+  "metadata": {
+    "description": "Workshop plugin marketplace for Claude Code skill demos and contributions",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "my-template-example-skills",
+      "description": "Template example skills: includes my-template-skill-creator for building and iterating on Claude Code skills",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/my-template-skill-creator"]
+    }
+  ]
+}
