@@ -14,6 +14,14 @@
       "skills": ["./skills/my-template-skill-creator"]
     },
     {
+
+      "name": "team1-sentry-triage",
+      "description": "On-call триаж автобагов из Sentry для инженеров Mindbox: от ссылки на autobugs.mindbox.ru до одного из трёх решений — silence, quick fix или тикет в трекер + ignore",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/team1-sentry-triage"]
+    },
+    {
       "name": "dmazurin-autobug-analyzer",
       "description": "Analyzes Sentry autobugs: fetches issue + stack trace, finds root cause in source code, recommends action (weaken logging / fix code / create Yandex Tracker ticket + ignore)",
       "source": "./",
