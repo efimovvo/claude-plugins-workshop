@@ -12,6 +12,13 @@
       "source": "./",
       "strict": false,
       "skills": ["./skills/my-template-skill-creator"]
+    },
+    {
+      "name": "dmazurin-autobug-analyzer",
+      "description": "Analyzes Sentry autobugs: fetches issue + stack trace, finds root cause in source code, recommends action (weaken logging / fix code / create Yandex Tracker ticket + ignore)",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/dmazurin-autobug-analyzer"]
     }
   ]
 }
